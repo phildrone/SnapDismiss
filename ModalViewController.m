@@ -29,7 +29,6 @@
     [self.view addSubview:self.blurView];
     
     CGRect buttonRect = CGRectMake(padding, height - 60.0f, width - 2.0f*padding, 40.0f);
-    NSLog(@"button frame = %@",NSStringFromCGRect(buttonRect));
     self.dismissButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [self.dismissButton setTitle:@"Dismiss" forState:UIControlStateNormal];
     self.dismissButton.frame = buttonRect;

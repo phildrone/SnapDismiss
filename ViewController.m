@@ -23,7 +23,6 @@
     CGFloat height = self.view.bounds.size.height;
     CGFloat padding = 40.0f;
     CGRect buttonRect = CGRectMake(padding, height - 60.0f, width - 2.0f*padding, 40.0f);
-    NSLog(@"button frame = %@",NSStringFromCGRect(buttonRect));
     self.presentButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [self.presentButton setTitle:@"Present" forState:UIControlStateNormal];
     self.presentButton.frame = buttonRect;
